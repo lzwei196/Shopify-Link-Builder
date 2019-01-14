@@ -15,7 +15,7 @@ def split_list(alist, wanted_parts=1):
     return [ alist[i*length // wanted_parts: (i+1)*length // wanted_parts]
              for i in range(wanted_parts) ]
 
-TOKEN = 'Insert token here'
+TOKEN = 'NTM0MTk0NDkwNzA2MTAwMjI0.Dx2DBQ.lu5omzJZTTH7P32e_Iw3A-NJSfc'
 
 @client.event
 async def on_ready():
